@@ -1,5 +1,5 @@
 # Colourfy
-Apply colour easly with this plugin
+Jquery colour plugin for apply colour on any html elements
 
 #######################################################
 ########-------------------------------################
