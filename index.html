@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Colourfy.js by freddy-tech</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Colourfy.js</h1>
+        <h2>Apply colour easly with this plugin</h2>
+        <a href="https://github.com/freddy-tech/Colourfy.js" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="colourfy" class="anchor" href="#colourfy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Colourfy</h1>
+
+<p>Jquery colour plugin for apply colour on any html elements</p>
+
+<p>Description : Colourfy.js is Aim only for apply font colour
+              This is very light plugin based on jquery
+              It can be work with any version of jquery but
+              i recommand to use v1.5 and above </p>
+
+<p>Author : Freddy Daniel</p>
+
+<p>Version : v1.0.0.0</p>
+
+<p>Requirements : jquery.js</p>
+
+<p>Using this plugin is very simple </p>
+
+<p>If you want colourfy  elements
+Use this</p>
+
+<p><code>$([selector]).[colour]fy();</code></p>
+
+<p>Example:
+below code for apply violet colour for all 'p' elements</p>
+
+<p><code>$(document).ready(function(){</code> </p>
+
+<p><code>$("p").violetfy();</code></p>
+
+<p><code>})</code></p>
+
+<p>that all......</p>
+
+<p>Color codes included in this plugin
+see <a href="http://www.color-hex.com/color-names.html">http://www.color-hex.com/color-names.html</a></p>
+
+<p>Colour                               Hex Code</p>
+
+<hr>
+
+<p>AliceBlue               -   #f0f8ff</p>
+
+<p>AntiqueWhite            -   #faebd7</p>
+
+<p>AntiqueWhite1           -   #ffefdb</p>
+
+<p>AntiqueWhite2           -   #eedfcc</p>
+
+<p>AntiqueWhite3           -   #cdc0b0</p>
+
+<p>AntiqueWhite4           -   #8b8378</p>
+
+<p>aquamarine1             -   #7fffd4</p>
+
+<p>aquamarine2             -   #76eec6</p>
+
+<p>aquamarine4             -   #458b74</p>
+
+<p>azure1                  -   #f0ffff</p>
+
+<p>azure2                  -   #e0eeee</p>
+
+<p>azure3                  -   #c1cdcd</p>
+
+<p>azure4                  -   #838b8b</p>
+
+<p>beige                   -   #f5f5dc</p>
+
+<p>bisque1                 -   #ffe4c4</p>
+
+<p>bisque2                 -   #eed5b7</p>
+
+<p>bisque3                 -   #cdb79e</p>
+
+<p>bisque4                 -   #8b7d6b</p>
+
+<p>black                   -   #000000</p>
+
+<p>BlanchedAlmond          -   #ffebcd</p>
+
+<p>blue1                   -   #0000ff</p>
+
+<p>blue2                   -   #0000ee</p>
+
+<p>blue4                   -   #00008b</p>
+
+<p>BlueViolet              -   #8a2be2</p>
+
+<p>brown                   -   #a52a2a</p>
+
+<p>brown1                  -   #ff4040</p>
+
+<p>brown2                  -   #ee3b3b</p>
+
+<p>brown3                  -   #cd3333</p>
+
+<p>brown4                  -   #8b2323</p>
+
+<p>burlywood               -   #deb887</p>
+
+<p>burlywood1              -   #ffd39b</p>
+
+<p>burlywood2              -   #eec591</p>
+
+<p>burlywood3              -   #cdaa7d</p>
+
+<p>burlywood4              -   #8b7355</p>
+
+<p>CadetBlue               -   #5f9ea0</p>
+
+<p>CadetBlue1              -   #98f5ff</p>
+
+<p>CadetBlue2              -   #8ee5ee</p>
+
+<p>CadetBlue3              -   #7ac5cd</p>
+
+<p>CadetBlue4              -   #53868b</p>
+
+<p>chartreuse1             -   #7fff00</p>
+
+<p>chartreuse2             -   #76ee00</p>
+
+<p>chartreuse3             -   #66cd00</p>
+
+<p>chartreuse4             -   #458b00</p>
+
+<p>chocolate               -   #d2691e</p>
+
+<p>chocolate1              -   #ff7f24</p>
+
+<p>chocolate2              -   #ee7621</p>
+
+<p>chocolate3              -   #cd661d</p>
+
+<p>coral                   -   #ff7f50</p>
+
+<p>coral1                  -   #ff7256</p>
+
+<p>coral2                  -   #ee6a50</p>
+
+<p>coral3                  -   #cd5b45</p>
+
+<p>coral4                  -   #8b3e2f</p>
+
+<p>CornflowerBlue          -   #6495ed</p>
+
+<p>cornsilk1               -   #fff8dc</p>
+
+<p>cornsilk2               -   #eee8cd</p>
+
+<p>cornsilk3               -   #cdc8b1</p>
+
+<p>cornsilk4               -   #8b8878</p>
+
+<p>cyan1                   -   #00ffff</p>
+
+<p>cyan2                   -   #00eeee</p>
+
+<p>cyan3                   -   #00cdcd</p>
+
+<p>cyan4                   -   #008b8b</p>
+
+<p>DarkGoldenrod           -   #b8860b</p>
+
+<p>DarkGoldenrod1          -   #ffb90f</p>
+
+<p>DarkGoldenrod2          -   #eead0e</p>
+
+<p>DarkGoldenrod3          -   #cd950c</p>
+
+<p>DarkGoldenrod4          -   #8b6508</p>
+
+<p>DarkGreen               -   #006400</p>
+
+<p>DarkKhaki               -   #bdb76b</p>
+
+<p>DarkOliveGreen          -   #556b2f</p>
+
+<p>DarkOliveGreen1         -   #caff70</p>
+
+<p>DarkOliveGreen2         -   #bcee68</p>
+
+<p>DarkOliveGreen3         -   #a2cd5a</p>
+
+<p>DarkOliveGreen4         -   #6e8b3d</p>
+
+<p>DarkOrange              -   #ff8c00</p>
+
+<p>DarkOrange1             -   #ff7f00</p>
+
+<p>DarkOrange2             -   #ee7600</p>
+
+<p>DarkOrange3             -   #cd6600</p>
+
+<p>DarkOrange4             -   #8b4500</p>
+
+<p>DarkOrchid              -   #9932cc</p>
+
+<p>DarkOrchid1             -   #bf3eff</p>
+
+<p>DarkOrchid2             -   #b23aee</p>
+
+<p>DarkOrchid3             -   #9a32cd</p>
+
+<p>DarkOrchid4             -   #68228b</p>
+
+<p>DarkSalmon              -   #e9967a</p>
+
+<p>DarkSeaGreen            -   #8fbc8f</p>
+
+<p>DarkSeaGreen1           -   #c1ffc1</p>
+
+<p>DarkSeaGreen2           -   #b4eeb4</p>
+
+<p>DarkSeaGreen3           -   #9bcd9b</p>
+
+<p>DarkSeaGreen4           -   #698b69</p>
+
+<p>DarkSlateBlue           -   #483d8b</p>
+
+<p>DarkSlateGray           -   #2f4f4f</p>
+
+<p>DarkSlateGray1          -   #97ffff</p>
+
+<p>DarkSlateGray2          -   #8deeee</p>
+
+<p>DarkSlateGray3          -   #79cdcd</p>
+
+<p>DarkSlateGray4          -   #528b8b</p>
+
+<p>DarkTurquoise           -   #00ced1</p>
+
+<p>DarkViolet              -   #9400d3</p>
+
+<p>DeepPink1               -   #ff1493</p>
+
+<p>DeepPink2               -   #ee1289</p>
+
+<p>DeepPink3               -   #cd1076</p>
+
+<p>DeepPink4               -   #8b0a50</p>
+
+<p>DeepSkyBlue1            -   #00bfff</p>
+
+<p>DeepSkyBlue2            -   #00b2ee</p>
+
+<p>DeepSkyBlue3            -   #009acd</p>
+
+<p>DeepSkyBlue4            -   #00688b</p>
+
+<p>DimGray                 -   #696969</p>
+
+<p>DodgerBlue1             -   #1e90ff</p>
+
+<p>DodgerBlue2             -   #1c86ee</p>
+
+<p>DodgerBlue3             -   #1874cd</p>
+
+<p>DodgerBlue4             -   #104e8b</p>
+
+<p>firebrick               -   #b22222</p>
+
+<p>firebrick1              -   #ff3030</p>
+
+<p>firebrick2              -   #ee2c2c</p>
+
+<p>firebrick3              -   #cd2626</p>
+
+<p>firebrick4              -   #8b1a1a</p>
+
+<p>FloralWhite             -   #fffaf0</p>
+
+<p>ForestGreen             -   #228b22</p>
+
+<p>gainsboro               -   #dcdcdc</p>
+
+<p>GhostWhite              -   #f8f8ff</p>
+
+<p>gold1                   -   #ffd700</p>
+
+<p>gold2                   -   #eec900</p>
+
+<p>gold3                   -   #cdad00</p>
+
+<p>gold4                   -   #8b7500</p>
+
+<p>goldenrod               -   #daa520</p>
+
+<p>goldenrod1              -   #ffc125</p>
+
+<p>goldenrod2              -   #eeb422</p>
+
+<p>goldenrod3              -   #cd9b1d</p>
+
+<p>goldenrod4              -   #8b6914</p>
+
+<p>gray                    -   #bebebe</p>
+
+<p>gray1                   -   #030303</p>
+
+<p>gray10                  -   #1a1a1a</p>
+
+<p>gray11                  -   #1c1c1c</p>
+
+<p>gray12                  -   #1f1f1f</p>
+
+<p>gray13                  -   #212121</p>
+
+<p>gray14                  -   #242424</p>
+
+<p>gray15                  -   #262626</p>
+
+<p>gray16                  -   #292929</p>
+
+<p>gray17                  -   #2b2b2b</p>
+
+<p>gray18                  -   #2e2e2e</p>
+
+<p>gray19                  -   #303030</p>
+
+<p>gray2                   -   #050505</p>
+
+<p>gray20                  -   #333333</p>
+
+<p>gray21                  -   #363636</p>
+
+<p>gray22                  -   #383838</p>
+
+<p>gray23                  -   #3b3b3b</p>
+
+<p>gray24                  -   #3d3d3d</p>
+
+<p>gray25                  -   #404040</p>
+
+<p>gray26                  -   #424242</p>
+
+<p>gray27                  -   #454545</p>
+
+<p>gray28                  -   #474747</p>
+
+<p>gray29                  -   #4a4a4a</p>
+
+<p>gray3                   -   #080808</p>
+
+<p>gray30                  -   #4d4d4d</p>
+
+<p>gray31                  -   #4f4f4f</p>
+
+<p>gray32                  -   #525252</p>
+
+<p>gray33                  -   #545454</p>
+
+<p>gray34                  -   #575757</p>
+
+<p>gray35                  -   #595959</p>
+
+<p>gray36                  -   #5c5c5c</p>
+
+<p>gray37                  -   #5e5e5e</p>
+
+<p>gray38                  -   #616161</p>
+
+<p>gray39                  -   #636363</p>
+
+<p>gray4                   -   #0a0a0a</p>
+
+<p>gray40                  -   #666666</p>
+
+<p>gray41                  -   #696969</p>
+
+<p>gray42                  -   #6b6b6b</p>
+
+<p>gray43                  -   #6e6e6e</p>
+
+<p>gray44                  -   #707070</p>
+
+<p>gray45                  -   #737373</p>
+
+<p>gray46                  -   #757575</p>
+
+<p>gray47                  -   #787878</p>
+
+<p>gray48                  -   #7a7a7a</p>
+
+<p>gray49                  -   #7d7d7d</p>
+
+<p>gray5                   -   #0d0d0d</p>
+
+<p>gray50                  -   #7f7f7f</p>
+
+<p>gray51                  -   #828282</p>
+
+<p>gray52                  -   #858585</p>
+
+<p>gray53                  -   #878787</p>
+
+<p>gray54                  -   #8a8a8a</p>
+
+<p>gray55                  -   #8c8c8c</p>
+
+<p>gray56                  -   #8f8f8f</p>
+
+<p>gray57                  -   #919191</p>
+
+<p>gray58                  -   #949494</p>
+
+<p>gray59                  -   #969696</p>
+
+<p>gray6                   -   #0f0f0f</p>
+
+<p>gray60                  -   #999999</p>
+
+<p>gray61                  -   #9c9c9c</p>
+
+<p>gray62                  -   #9e9e9e</p>
+
+<p>gray63                  -   #a1a1a1</p>
+
+<p>gray64                  -   #a3a3a3</p>
+
+<p>gray65                  -   #a6a6a6</p>
+
+<p>gray66                  -   #a8a8a8</p>
+
+<p>gray67                  -   #ababab</p>
+
+<p>gray68                  -   #adadad</p>
+
+<p>gray69                  -   #b0b0b0</p>
+
+<p>gray7                   -   #121212</p>
+
+<p>gray70                  -   #b3b3b3</p>
+
+<p>gray71                  -   #b5b5b5</p>
+
+<p>gray72                  -   #b8b8b8</p>
+
+<p>gray73                  -   #bababa</p>
+
+<p>gray74                  -   #bdbdbd</p>
+
+<p>gray75                  -   #bfbfbf</p>
+
+<p>gray76                  -   #c2c2c2</p>
+
+<p>gray77                  -   #c4c4c4</p>
+
+<p>gray78                  -   #c7c7c7</p>
+
+<p>gray79                  -   #c9c9c9</p>
+
+<p>gray8                   -   #141414</p>
+
+<p>gray80                  -   #cccccc</p>
+
+<p>gray81                  -   #cfcfcf</p>
+
+<p>gray82                  -   #d1d1d1</p>
+
+<p>gray83                  -   #d4d4d4</p>
+
+<p>gray84                  -   #d6d6d6</p>
+
+<p>gray85                  -   #d9d9d9</p>
+
+<p>gray86                  -   #dbdbdb</p>
+
+<p>gray87                  -   #dedede</p>
+
+<p>gray88                  -   #e0e0e0</p>
+
+<p>gray89                  -   #e3e3e3</p>
+
+<p>gray9                   -   #171717</p>
+
+<p>gray90                  -   #e5e5e5</p>
+
+<p>gray91                  -   #e8e8e8</p>
+
+<p>gray92                  -   #ebebeb</p>
+
+<p>gray93                  -   #ededed</p>
+
+<p>gray94                  -   #f0f0f0</p>
+
+<p>gray95                  -   #f2f2f2</p>
+
+<p>gray97                  -   #f7f7f7</p>
+
+<p>gray98                  -   #fafafa</p>
+
+<p>gray99                  -   #fcfcfc</p>
+
+<p>green1                  -   #00ff00</p>
+
+<p>green2                  -   #00ee00</p>
+
+<p>green3                  -   #00cd00</p>
+
+<p>green4                  -   #008b00</p>
+
+<p>GreenYellow             -   #adff2f</p>
+
+<p>honeydew1               -   #f0fff0</p>
+
+<p>honeydew2               -   #e0eee0</p>
+
+<p>honeydew3               -   #c1cdc1</p>
+
+<p>honeydew4               -   #838b83</p>
+
+<p>HotPink                 -   #ff69b4</p>
+
+<p>HotPink1                -   #ff6eb4</p>
+
+<p>HotPink2                -   #ee6aa7</p>
+
+<p>HotPink3                -   #cd6090</p>
+
+<p>HotPink4                -   #8b3a62</p>
+
+<p>IndianRed               -   #cd5c5c</p>
+
+<p>IndianRed1              -   #ff6a6a</p>
+
+<p>IndianRed2              -   #ee6363</p>
+
+<p>IndianRed3              -   #cd5555</p>
+
+<p>IndianRed4              -   #8b3a3a</p>
+
+<p>ivory1                  -   #fffff0</p>
+
+<p>ivory2                  -   #eeeee0</p>
+
+<p>ivory3                  -   #cdcdc1</p>
+
+<p>ivory4                  -   #8b8b83</p>
+
+<p>khaki                   -   #f0e68c</p>
+
+<p>khaki1                  -   #fff68f</p>
+
+<p>khaki2                  -   #eee685</p>
+
+<p>khaki3                  -   #cdc673</p>
+
+<p>khaki4                  -   #8b864e</p>
+
+<p>lavender                -   #e6e6fa</p>
+
+<p>LavenderBlush1          -   #fff0f5</p>
+
+<p>LavenderBlush2          -   #eee0e5</p>
+
+<p>LavenderBlush3          -   #cdc1c5</p>
+
+<p>LavenderBlush4          -   #8b8386</p>
+
+<p>LawnGreen               -   #7cfc00</p>
+
+<p>LemonChiffon1           -   #fffacd</p>
+
+<p>LemonChiffon2           -   #eee9bf</p>
+
+<p>LemonChiffon3           -   #cdc9a5</p>
+
+<p>LemonChiffon4           -   #8b8970</p>
+
+<p>light                   -   #eedd82</p>
+
+<p>LightBlue               -   #add8e6</p>
+
+<p>LightBlue1              -   #bfefff</p>
+
+<p>LightBlue2              -   #b2dfee</p>
+
+<p>LightBlue3              -   #9ac0cd</p>
+
+<p>LightBlue4              -   #68838b</p>
+
+<p>LightCoral              -   #f08080</p>
+
+<p>LightCyan1              -   #e0ffff</p>
+
+<p>LightCyan2              -   #d1eeee</p>
+
+<p>LightCyan3              -   #b4cdcd</p>
+
+<p>LightCyan4              -   #7a8b8b</p>
+
+<p>LightGoldenrod1         -   #ffec8b</p>
+
+<p>LightGoldenrod2         -   #eedc82</p>
+
+<p>LightGoldenrod3         -   #cdbe70</p>
+
+<p>LightGoldenrod4         -   #8b814c</p>
+
+<p>LightGoldenrodYellow    -   #fafad2</p>
+
+<p>LightGray               -   #d3d3d3</p>
+
+<p>LightPink               -   #ffb6c1</p>
+
+<p>LightPink1              -   #ffaeb9</p>
+
+<p>LightPink2              -   #eea2ad</p>
+
+<p>LightPink3              -   #cd8c95</p>
+
+<p>LightPink4              -   #8b5f65</p>
+
+<p>LightSalmon1            -   #ffa07a</p>
+
+<p>LightSalmon2            -   #ee9572</p>
+
+<p>LightSalmon3            -   #cd8162</p>
+
+<p>LightSalmon4            -   #8b5742</p>
+
+<p>LightSeaGreen           -   #20b2aa</p>
+
+<p>LightSkyBlue            -   #87cefa</p>
+
+<p>LightSkyBlue1           -   #b0e2ff</p>
+
+<p>LightSkyBlue2           -   #a4d3ee</p>
+
+<p>LightSkyBlue3           -   #8db6cd</p>
+
+<p>LightSkyBlue4           -   #607b8b</p>
+
+<p>LightSlateBlue          -   #8470ff</p>
+
+<p>LightSlateGray          -   #778899</p>
+
+<p>LightSteelBlue          -   #b0c4de</p>
+
+<p>LightSteelBlue1         -   #cae1ff</p>
+
+<p>LightSteelBlue2         -   #bcd2ee</p>
+
+<p>LightSteelBlue3         -   #a2b5cd</p>
+
+<p>LightSteelBlue4         -   #6e7b8b</p>
+
+<p>LightYellow1            -   #ffffe0</p>
+
+<p>LightYellow2            -   #eeeed1</p>
+
+<p>LightYellow3            -   #cdcdb4</p>
+
+<p>LightYellow4            -   #8b8b7a</p>
+
+<p>LimeGreen               -   #32cd32</p>
+
+<p>linen                   -   #faf0e6</p>
+
+<p>magenta                 -   #ff00ff</p>
+
+<p>magenta2                -   #ee00ee</p>
+
+<p>magenta3                -   #cd00cd</p>
+
+<p>magenta4                -   #8b008b</p>
+
+<p>maroon                  -   #b03060</p>
+
+<p>maroon1                 -   #ff34b3</p>
+
+<p>maroon2                 -   #ee30a7</p>
+
+<p>maroon3                 -   #cd2990</p>
+
+<p>maroon4                 -   #8b1c62</p>
+
+<p>medium                  -   #66cdaa</p>
+
+<p>MediumAquamarine        -   #66cdaa</p>
+
+<p>MediumBlue              -   #0000cd</p>
+
+<p>MediumOrchid            -   #ba55d3</p>
+
+<p>MediumOrchid1           -   #e066ff</p>
+
+<p>MediumOrchid2           -   #d15fee</p>
+
+<p>MediumOrchid3           -   #b452cd</p>
+
+<p>MediumOrchid4           -   #7a378b</p>
+
+<p>MediumPurple            -   #9370db</p>
+
+<p>MediumPurple1           -   #ab82ff</p>
+
+<p>MediumPurple2           -   #9f79ee</p>
+
+<p>MediumPurple3           -   #8968cd</p>
+
+<p>MediumPurple4           -   #5d478b</p>
+
+<p>MediumSeaGreen          -   #3cb371</p>
+
+<p>MediumSlateBlue         -   #7b68ee</p>
+
+<p>MediumSpringGreen       -   #00fa9a</p>
+
+<p>MediumTurquoise         -   #48d1cc</p>
+
+<p>MediumVioletRed         -   #c71585</p>
+
+<p>MidnightBlue            -   #191970</p>
+
+<p>MintCream               -   #f5fffa</p>
+
+<p>MistyRose1              -   #ffe4e1</p>
+
+<p>MistyRose2              -   #eed5d2</p>
+
+<p>MistyRose3              -   #cdb7b5</p>
+
+<p>MistyRose4              -   #8b7d7b</p>
+
+<p>moccasin                -   #ffe4b5</p>
+
+<p>NavajoWhite1            -   #ffdead</p>
+
+<p>NavajoWhite2            -   #eecfa1</p>
+
+<p>NavajoWhite3            -   #cdb38b</p>
+
+<p>NavajoWhite4            -   #8b795e</p>
+
+<p>NavyBlue                -   #000080</p>
+
+<p>OldLace                 -   #fdf5e6</p>
+
+<p>OliveDrab               -   #6b8e23</p>
+
+<p>OliveDrab1              -   #c0ff3e</p>
+
+<p>OliveDrab2              -   #b3ee3a</p>
+
+<p>OliveDrab4              -   #698b22</p>
+
+<p>orange1                 -   #ffa500</p>
+
+<p>orange2                 -   #ee9a00</p>
+
+<p>orange3                 -   #cd8500</p>
+
+<p>orange4                 -   #8b5a00</p>
+
+<p>OrangeRed1              -   #ff4500</p>
+
+<p>OrangeRed2              -   #ee4000</p>
+
+<p>OrangeRed3              -   #cd3700</p>
+
+<p>OrangeRed4              -   #8b2500</p>
+
+<p>orchid                  -   #da70d6</p>
+
+<p>orchid1                 -   #ff83fa</p>
+
+<p>orchid2                 -   #ee7ae9</p>
+
+<p>orchid3                 -   #cd69c9</p>
+
+<p>orchid4                 -   #8b4789</p>
+
+<p>pale                    -   #db7093</p>
+
+<p>PaleGoldenrod           -   #eee8aa</p>
+
+<p>PaleGreen               -   #98fb98</p>
+
+<p>PaleGreen1              -   #9aff9a</p>
+
+<p>PaleGreen2              -   #90ee90</p>
+
+<p>PaleGreen3              -   #7ccd7c</p>
+
+<p>PaleGreen4              -   #548b54</p>
+
+<p>PaleTurquoise           -   #afeeee</p>
+
+<p>PaleTurquoise1          -   #bbffff</p>
+
+<p>PaleTurquoise2          -   #aeeeee</p>
+
+<p>PaleTurquoise3          -   #96cdcd</p>
+
+<p>PaleTurquoise4          -   #668b8b</p>
+
+<p>PaleVioletRed           -   #db7093</p>
+
+<p>PaleVioletRed1          -   #ff82ab</p>
+
+<p>PaleVioletRed2          -   #ee799f</p>
+
+<p>PaleVioletRed3          -   #cd6889</p>
+
+<p>PaleVioletRed4          -   #8b475d</p>
+
+<p>PapayaWhip              -   #ffefd5</p>
+
+<p>PeachPuff1              -   #ffdab9</p>
+
+<p>PeachPuff2              -   #eecbad</p>
+
+<p>PeachPuff3              -   #cdaf95</p>
+
+<p>PeachPuff4              -   #8b7765</p>
+
+<p>pink                    -   #ffc0cb</p>
+
+<p>pink1                   -   #ffb5c5</p>
+
+<p>pink2                   -   #eea9b8</p>
+
+<p>pink3                   -   #cd919e</p>
+
+<p>pink4                   -   #8b636c</p>
+
+<p>plum                    -   #dda0dd</p>
+
+<p>plum1                   -   #ffbbff</p>
+
+<p>plum2                   -   #eeaeee</p>
+
+<p>plum3                   -   #cd96cd</p>
+
+<p>plum4                   -   #8b668b</p>
+
+<p>PowderBlue              -   #b0e0e6</p>
+
+<p>purple                  -   #a020f0</p>
+
+<p>rebeccapurple           -   #663399</p>
+
+<p>purple1                 -   #9b30ff</p>
+
+<p>purple2                 -   #912cee</p>
+
+<p>purple3                 -   #7d26cd</p>
+
+<p>purple4                 -   #551a8b</p>
+
+<p>red1                    -   #ff0000</p>
+
+<p>red2                    -   #ee0000</p>
+
+<p>red3                    -   #cd0000</p>
+
+<p>red4                    -   #8b0000</p>
+
+<p>RosyBrown               -   #bc8f8f</p>
+
+<p>RosyBrown1              -   #ffc1c1</p>
+
+<p>RosyBrown2              -   #eeb4b4</p>
+
+<p>RosyBrown3              -   #cd9b9b</p>
+
+<p>RosyBrown4              -   #8b6969</p>
+
+<p>RoyalBlue               -   #4169e1</p>
+
+<p>RoyalBlue1              -   #4876ff</p>
+
+<p>RoyalBlue2              -   #436eee</p>
+
+<p>RoyalBlue3              -   #3a5fcd</p>
+
+<p>RoyalBlue4              -   #27408b</p>
+
+<p>SaddleBrown             -   #8b4513</p>
+
+<p>salmon                  -   #fa8072</p>
+
+<p>salmon1                 -   #ff8c69</p>
+
+<p>salmon2                 -   #ee8262</p>
+
+<p>salmon3                 -   #cd7054</p>
+
+<p>salmon4                 -   #8b4c39</p>
+
+<p>SandyBrown              -   #f4a460</p>
+
+<p>SeaGreen1               -   #54ff9f</p>
+
+<p>SeaGreen2               -   #4eee94</p>
+
+<p>SeaGreen3               -   #43cd80</p>
+
+<p>SeaGreen4               -   #2e8b57</p>
+
+<p>seashell1               -   #fff5ee</p>
+
+<p>seashell2               -   #eee5de</p>
+
+<p>seashell3               -   #cdc5bf</p>
+
+<p>seashell4               -   #8b8682</p>
+
+<p>sienna                  -   #a0522d</p>
+
+<p>sienna1                 -   #ff8247</p>
+
+<p>sienna2                 -   #ee7942</p>
+
+<p>sienna3                 -   #cd6839</p>
+
+<p>sienna4                 -   #8b4726</p>
+
+<p>SkyBlue                 -   #87ceeb</p>
+
+<p>SkyBlue1                -   #87ceff</p>
+
+<p>SkyBlue2                -   #7ec0ee</p>
+
+<p>SkyBlue3                -   #6ca6cd</p>
+
+<p>SkyBlue4                -   #4a708b</p>
+
+<p>SlateBlue               -   #6a5acd</p>
+
+<p>SlateBlue1              -   #836fff</p>
+
+<p>SlateBlue2              -   #7a67ee</p>
+
+<p>SlateBlue3              -   #6959cd</p>
+
+<p>SlateBlue4              -   #473c8b</p>
+
+<p>SlateGray               -   #708090</p>
+
+<p>SlateGray1              -   #c6e2ff</p>
+
+<p>SlateGray2              -   #b9d3ee</p>
+
+<p>SlateGray3              -   #9fb6cd</p>
+
+<p>SlateGray4              -   #6c7b8b</p>
+
+<p>snow1                   -   #fffafa</p>
+
+<p>snow2                   -   #eee9e9</p>
+
+<p>snow3                   -   #cdc9c9</p>
+
+<p>snow4                   -   #8b8989</p>
+
+<p>SpringGreen1            -   #00ff7f</p>
+
+<p>SpringGreen2            -   #00ee76</p>
+
+<p>SpringGreen3            -   #00cd66</p>
+
+<p>SpringGreen4            -   #008b45</p>
+
+<p>SteelBlue               -   #4682b4</p>
+
+<p>SteelBlue1              -   #63b8ff</p>
+
+<p>SteelBlue2              -   #5cacee</p>
+
+<p>SteelBlue3              -   #4f94cd</p>
+
+<p>SteelBlue4              -   #36648b</p>
+
+<p>tan                     -   #d2b48c</p>
+
+<p>tan1                    -   #ffa54f</p>
+
+<p>tan2                    -   #ee9a49</p>
+
+<p>tan3                    -   #cd853f</p>
+
+<p>tan4                    -   #8b5a2b</p>
+
+<p>thistle                 -   #d8bfd8</p>
+
+<p>thistle1                -   #ffe1ff</p>
+
+<p>thistle2                -   #eed2ee</p>
+
+<p>thistle3                -   #cdb5cd</p>
+
+<p>thistle4                -   #8b7b8b</p>
+
+<p>tomato1                 -   #ff6347</p>
+
+<p>tomato2                 -   #ee5c42</p>
+
+<p>tomato3                 -   #cd4f39</p>
+
+<p>tomato4                 -   #8b3626</p>
+
+<p>turquoise               -   #40e0d0</p>
+
+<p>turquoise1              -   #00f5ff</p>
+
+<p>turquoise2              -   #00e5ee</p>
+
+<p>turquoise3              -   #00c5cd</p>
+
+<p>turquoise4              -   #00868b</p>
+
+<p>violet                  -   #ee82ee</p>
+
+<p>VioletRed               -   #d02090</p>
+
+<p>VioletRed1              -   #ff3e96</p>
+
+<p>VioletRed2              -   #ee3a8c</p>
+
+<p>VioletRed3              -   #cd3278</p>
+
+<p>VioletRed4              -   #8b2252</p>
+
+<p>wheat                   -   #f5deb3</p>
+
+<p>wheat1                  -   #ffe7ba</p>
+
+<p>wheat2                  -   #eed8ae</p>
+
+<p>wheat3                  -   #cdba96</p>
+
+<p>wheat4                  -   #8b7e66</p>
+
+<p>white                   -   #ffffff</p>
+
+<p>WhiteSmoke              -   #f5f5f5</p>
+
+<p>yellow1                 -   #ffff00</p>
+
+<p>yellow2                 -   #eeee00</p>
+
+<p>yellow3                 -   #cdcd00</p>
+
+<p>yellow4                 -   #8b8b00</p>
+
+<p>YellowGreen             -   #9acd32</p>
+
+<hr>
+
+<h2>
+<a id="--------------have-a-nice-day--------------------" class="anchor" href="#--------------have-a-nice-day--------------------" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>--------------Have A Nice Day--------------------</h2>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/freddy-tech/Colourfy.js/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/freddy-tech/Colourfy.js/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/freddy-tech/Colourfy.js"></a> is maintained by <a href="https://github.com/freddy-tech">freddy-tech</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
